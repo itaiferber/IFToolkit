@@ -18,7 +18,8 @@
  niceties of NSLog, without logging information to the system, and printing an extra timestamp.
  @param format the format to print, followed by the arguments
  */
-void IFPrint (NSString *format, ...) NS_FORMAT_FUNCTION(1, 2) {
+void IFPrint (NSString *format, ...) NS_FORMAT_FUNCTION(1, 2);
+void IFPrint (NSString *format, ...) {
 	if (!format) return;
 	va_list arguments;
 	va_start(arguments, format);
@@ -27,7 +28,9 @@ void IFPrint (NSString *format, ...) NS_FORMAT_FUNCTION(1, 2) {
 	va_end(arguments);
 	
 	fputs([output UTF8String], stdout);
+#if !__has_feature(objc_arc)
 	[output release];
+#endif
 }
 
 /*!
@@ -39,7 +42,8 @@ void IFPrint (NSString *format, ...) NS_FORMAT_FUNCTION(1, 2) {
  @param file the file handle to print to
  @param format the format to print, followed by the arguments
  */
-void IFFPrint (FILE *file, NSString *format, ...) NS_FORMAT_FUNCTION(2, 3) {
+void IFFPrint (FILE *file, NSString *format, ...) NS_FORMAT_FUNCTION(2, 3);
+void IFFPrint (FILE *file, NSString *format, ...) {
 	if (!format) return;
 	va_list arguments;
 	va_start(arguments, format);
@@ -48,7 +52,9 @@ void IFFPrint (FILE *file, NSString *format, ...) NS_FORMAT_FUNCTION(2, 3) {
 	va_end(arguments);
 	
 	fputs([output UTF8String], file == NULL ? stdout : file);
+#if !__has_feature(objc_arc)
 	[output release];
+#endif
 }
 
 #endif
