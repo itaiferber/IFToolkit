@@ -7,22 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C0E595A13D1536200DE8E39 /* IFPrint.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C0E595913D1536200DE8E39 /* IFPrint.h */; };
+		5C0E595D13D1570400DE8E39 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 5C0E595C13D1570400DE8E39 /* README.markdown */; };
+		5C5B366113D1FCC6009AF4BF /* IFToolbarManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5B365813D1FCC6009AF4BF /* IFToolbarManager.h */; };
+		5C5B366213D1FCC6009AF4BF /* IFToolbarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5B365913D1FCC6009AF4BF /* IFToolbarManager.m */; };
+		5C5B366313D1FCC6009AF4BF /* IFToolbarManagerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5B365A13D1FCC6009AF4BF /* IFToolbarManagerDelegate.h */; };
+		5C5B366413D1FCC6009AF4BF /* IFToolbarPane.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5B365B13D1FCC6009AF4BF /* IFToolbarPane.h */; };
+		5C5B366513D1FCC6009AF4BF /* IFToolbarPane.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5B365C13D1FCC6009AF4BF /* IFToolbarPane.m */; };
+		5C5B366613D1FCC6009AF4BF /* MAZeroingWeakRef.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5B365D13D1FCC6009AF4BF /* MAZeroingWeakRef.h */; };
+		5C5B366713D1FCC6009AF4BF /* MAZeroingWeakRef.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5B365E13D1FCC6009AF4BF /* MAZeroingWeakRef.m */; };
+		5C5B366813D1FCC6009AF4BF /* NSWindow+Resizing.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5B365F13D1FCC6009AF4BF /* NSWindow+Resizing.h */; };
+		5C5B366913D1FCC6009AF4BF /* NSWindow+Resizing.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5B366013D1FCC6009AF4BF /* NSWindow+Resizing.m */; };
+		5C5B366E13D1FCEA009AF4BF /* IFSheetController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5B366B13D1FCEA009AF4BF /* IFSheetController.h */; };
+		5C5B366F13D1FCEA009AF4BF /* IFSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5B366C13D1FCEA009AF4BF /* IFSheetController.m */; };
+		5C5B367013D1FCEA009AF4BF /* IFSheetControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5B366D13D1FCEA009AF4BF /* IFSheetControllerDelegate.h */; };
 		5C7C659913D13D290070AADE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7C659813D13D290070AADE /* Cocoa.framework */; };
 		5C7C65A313D13D290070AADE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C7C65A113D13D290070AADE /* InfoPlist.strings */; };
-		5C7C65A713D13D290070AADE /* IFToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7C65A613D13D290070AADE /* IFToolkit.m */; };
+		5C7C65CD13D13EBB0070AADE /* IFToolkitFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C7C65CC13D13EBB0070AADE /* IFToolkitFramework.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C0E595913D1536200DE8E39 /* IFPrint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFPrint.h; sourceTree = "<group>"; };
+		5C0E595C13D1570400DE8E39 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = SOURCE_ROOT; };
+		5C5B365813D1FCC6009AF4BF /* IFToolbarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFToolbarManager.h; sourceTree = "<group>"; };
+		5C5B365913D1FCC6009AF4BF /* IFToolbarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFToolbarManager.m; sourceTree = "<group>"; };
+		5C5B365A13D1FCC6009AF4BF /* IFToolbarManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFToolbarManagerDelegate.h; sourceTree = "<group>"; };
+		5C5B365B13D1FCC6009AF4BF /* IFToolbarPane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFToolbarPane.h; sourceTree = "<group>"; };
+		5C5B365C13D1FCC6009AF4BF /* IFToolbarPane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFToolbarPane.m; sourceTree = "<group>"; };
+		5C5B365D13D1FCC6009AF4BF /* MAZeroingWeakRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAZeroingWeakRef.h; sourceTree = "<group>"; };
+		5C5B365E13D1FCC6009AF4BF /* MAZeroingWeakRef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAZeroingWeakRef.m; sourceTree = "<group>"; };
+		5C5B365F13D1FCC6009AF4BF /* NSWindow+Resizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSWindow+Resizing.h"; sourceTree = "<group>"; };
+		5C5B366013D1FCC6009AF4BF /* NSWindow+Resizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSWindow+Resizing.m"; sourceTree = "<group>"; };
+		5C5B366B13D1FCEA009AF4BF /* IFSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFSheetController.h; sourceTree = "<group>"; };
+		5C5B366C13D1FCEA009AF4BF /* IFSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFSheetController.m; sourceTree = "<group>"; };
+		5C5B366D13D1FCEA009AF4BF /* IFSheetControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFSheetControllerDelegate.h; sourceTree = "<group>"; };
 		5C7C659513D13D290070AADE /* IFToolkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IFToolkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C7C659813D13D290070AADE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5C7C659B13D13D290070AADE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		5C7C659C13D13D290070AADE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		5C7C659D13D13D290070AADE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		5C7C65A013D13D290070AADE /* IFToolkit-Info.plist */ = {isa = PBXFileReference; path = "IFToolkit-Info.plist"; sourceTree = "<group>"; };
+		5C7C65A013D13D290070AADE /* IFToolkit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IFToolkit-Info.plist"; sourceTree = "<group>"; };
 		5C7C65A213D13D290070AADE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5C7C65A413D13D290070AADE /* IFToolkit-Prefix.pch */ = {isa = PBXFileReference; path = "IFToolkit-Prefix.pch"; sourceTree = "<group>"; };
-		5C7C65A513D13D290070AADE /* IFToolkit.h */ = {isa = PBXFileReference; path = IFToolkit.h; sourceTree = "<group>"; };
-		5C7C65A613D13D290070AADE /* IFToolkit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IFToolkit.m; sourceTree = "<group>"; };
+		5C7C65A413D13D290070AADE /* IFToolkit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IFToolkit-Prefix.pch"; sourceTree = "<group>"; };
+		5C7C65CC13D13EBB0070AADE /* IFToolkitFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFToolkitFramework.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +64,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C0E594913D1530500DE8E39 /* IFSheetController */ = {
+			isa = PBXGroup;
+			children = (
+				5C5B366B13D1FCEA009AF4BF /* IFSheetController.h */,
+				5C5B366C13D1FCEA009AF4BF /* IFSheetController.m */,
+				5C5B366D13D1FCEA009AF4BF /* IFSheetControllerDelegate.h */,
+			);
+			name = IFSheetController;
+			sourceTree = "<group>";
+		};
+		5C0E595B13D156E700DE8E39 /* IFPrint */ = {
+			isa = PBXGroup;
+			children = (
+				5C0E595913D1536200DE8E39 /* IFPrint.h */,
+			);
+			name = IFPrint;
+			sourceTree = "<group>";
+		};
 		5C7C658913D13D290070AADE = {
 			isa = PBXGroup;
 			children = (
@@ -76,8 +121,12 @@
 		5C7C659E13D13D290070AADE /* IFToolkit */ = {
 			isa = PBXGroup;
 			children = (
-				5C7C65A513D13D290070AADE /* IFToolkit.h */,
-				5C7C65A613D13D290070AADE /* IFToolkit.m */,
+				5C7C65CC13D13EBB0070AADE /* IFToolkitFramework.h */,
+				5C0E595B13D156E700DE8E39 /* IFPrint */,
+				5C0E594913D1530500DE8E39 /* IFSheetController */,
+				5C7C65B013D13D310070AADE /* IFToolbarManager */,
+				5C5B365D13D1FCC6009AF4BF /* MAZeroingWeakRef.h */,
+				5C5B365E13D1FCC6009AF4BF /* MAZeroingWeakRef.m */,
 				5C7C659F13D13D290070AADE /* Supporting Files */,
 			);
 			path = IFToolkit;
@@ -86,11 +135,26 @@
 		5C7C659F13D13D290070AADE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5C0E595C13D1570400DE8E39 /* README.markdown */,
 				5C7C65A013D13D290070AADE /* IFToolkit-Info.plist */,
 				5C7C65A113D13D290070AADE /* InfoPlist.strings */,
 				5C7C65A413D13D290070AADE /* IFToolkit-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C7C65B013D13D310070AADE /* IFToolbarManager */ = {
+			isa = PBXGroup;
+			children = (
+				5C5B365813D1FCC6009AF4BF /* IFToolbarManager.h */,
+				5C5B365913D1FCC6009AF4BF /* IFToolbarManager.m */,
+				5C5B365A13D1FCC6009AF4BF /* IFToolbarManagerDelegate.h */,
+				5C5B365B13D1FCC6009AF4BF /* IFToolbarPane.h */,
+				5C5B365C13D1FCC6009AF4BF /* IFToolbarPane.m */,
+				5C5B365F13D1FCC6009AF4BF /* NSWindow+Resizing.h */,
+				5C5B366013D1FCC6009AF4BF /* NSWindow+Resizing.m */,
+			);
+			name = IFToolbarManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -100,6 +164,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C7C65CD13D13EBB0070AADE /* IFToolkitFramework.h in Headers */,
+				5C0E595A13D1536200DE8E39 /* IFPrint.h in Headers */,
+				5C5B366113D1FCC6009AF4BF /* IFToolbarManager.h in Headers */,
+				5C5B366313D1FCC6009AF4BF /* IFToolbarManagerDelegate.h in Headers */,
+				5C5B366413D1FCC6009AF4BF /* IFToolbarPane.h in Headers */,
+				5C5B366613D1FCC6009AF4BF /* MAZeroingWeakRef.h in Headers */,
+				5C5B366813D1FCC6009AF4BF /* NSWindow+Resizing.h in Headers */,
+				5C5B366E13D1FCEA009AF4BF /* IFSheetController.h in Headers */,
+				5C5B367013D1FCEA009AF4BF /* IFSheetControllerDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +202,9 @@
 /* Begin PBXProject section */
 		5C7C658B13D13D290070AADE /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Itai Ferber";
+			};
 			buildConfigurationList = 5C7C658E13D13D290070AADE /* Build configuration list for PBXProject "IFToolkit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -152,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C7C65A313D13D290070AADE /* InfoPlist.strings in Resources */,
+				5C0E595D13D1570400DE8E39 /* README.markdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,7 +239,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C7C65A713D13D290070AADE /* IFToolkit.m in Sources */,
+				5C5B366213D1FCC6009AF4BF /* IFToolbarManager.m in Sources */,
+				5C5B366513D1FCC6009AF4BF /* IFToolbarPane.m in Sources */,
+				5C5B366713D1FCC6009AF4BF /* MAZeroingWeakRef.m in Sources */,
+				5C5B366913D1FCC6009AF4BF /* NSWindow+Resizing.m in Sources */,
+				5C5B366F13D1FCEA009AF4BF /* IFSheetController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,9 +311,11 @@
 		5C7C65AB13D13D290070AADE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_OBJC_GC = unsupported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IFToolkit/IFToolkit-Prefix.pch";
 				INFOPLIST_FILE = "IFToolkit/IFToolkit-Info.plist";
@@ -244,9 +327,11 @@
 		5C7C65AC13D13D290070AADE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_OBJC_GC = unsupported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IFToolkit/IFToolkit-Prefix.pch";
 				INFOPLIST_FILE = "IFToolkit/IFToolkit-Info.plist";
@@ -274,6 +359,7 @@
 				5C7C65AC13D13D290070AADE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
