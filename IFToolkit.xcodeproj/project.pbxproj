@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5C0E595A13D1536200DE8E39 /* IFPrint.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C0E595913D1536200DE8E39 /* IFPrint.h */; };
+		5C0E595A13D1536200DE8E39 /* IFPrint.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C0E595913D1536200DE8E39 /* IFPrint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C0E595D13D1570400DE8E39 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 5C0E595C13D1570400DE8E39 /* README.markdown */; };
-		5C5B366113D1FCC6009AF4BF /* IFToolbarManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5B365813D1FCC6009AF4BF /* IFToolbarManager.h */; };
+		5C5B366113D1FCC6009AF4BF /* IFToolbarManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5B365813D1FCC6009AF4BF /* IFToolbarManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C5B366213D1FCC6009AF4BF /* IFToolbarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5B365913D1FCC6009AF4BF /* IFToolbarManager.m */; };
-		5C5B366313D1FCC6009AF4BF /* IFToolbarManagerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5B365A13D1FCC6009AF4BF /* IFToolbarManagerDelegate.h */; };
-		5C5B366413D1FCC6009AF4BF /* IFToolbarPane.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5B365B13D1FCC6009AF4BF /* IFToolbarPane.h */; };
+		5C5B366313D1FCC6009AF4BF /* IFToolbarManagerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5B365A13D1FCC6009AF4BF /* IFToolbarManagerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C5B366413D1FCC6009AF4BF /* IFToolbarPane.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5B365B13D1FCC6009AF4BF /* IFToolbarPane.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C5B366513D1FCC6009AF4BF /* IFToolbarPane.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5B365C13D1FCC6009AF4BF /* IFToolbarPane.m */; };
-		5C5B366613D1FCC6009AF4BF /* MAZeroingWeakRef.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5B365D13D1FCC6009AF4BF /* MAZeroingWeakRef.h */; };
+		5C5B366613D1FCC6009AF4BF /* MAZeroingWeakRef.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5B365D13D1FCC6009AF4BF /* MAZeroingWeakRef.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C5B366713D1FCC6009AF4BF /* MAZeroingWeakRef.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5B365E13D1FCC6009AF4BF /* MAZeroingWeakRef.m */; };
-		5C5B366813D1FCC6009AF4BF /* NSWindow+Resizing.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5B365F13D1FCC6009AF4BF /* NSWindow+Resizing.h */; };
+		5C5B366813D1FCC6009AF4BF /* NSWindow+Resizing.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5B365F13D1FCC6009AF4BF /* NSWindow+Resizing.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C5B366913D1FCC6009AF4BF /* NSWindow+Resizing.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5B366013D1FCC6009AF4BF /* NSWindow+Resizing.m */; };
-		5C5B366E13D1FCEA009AF4BF /* IFSheetController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5B366B13D1FCEA009AF4BF /* IFSheetController.h */; };
+		5C5B366E13D1FCEA009AF4BF /* IFSheetController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5B366B13D1FCEA009AF4BF /* IFSheetController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C5B366F13D1FCEA009AF4BF /* IFSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5B366C13D1FCEA009AF4BF /* IFSheetController.m */; };
-		5C5B367013D1FCEA009AF4BF /* IFSheetControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5B366D13D1FCEA009AF4BF /* IFSheetControllerDelegate.h */; };
+		5C5B367013D1FCEA009AF4BF /* IFSheetControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5B366D13D1FCEA009AF4BF /* IFSheetControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C7C659913D13D290070AADE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7C659813D13D290070AADE /* Cocoa.framework */; };
 		5C7C65A313D13D290070AADE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C7C65A113D13D290070AADE /* InfoPlist.strings */; };
-		5C7C65CD13D13EBB0070AADE /* IFToolkitFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C7C65CC13D13EBB0070AADE /* IFToolkitFramework.h */; };
+		5C7C65CD13D13EBB0070AADE /* IFToolkitFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C7C65CC13D13EBB0070AADE /* IFToolkitFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
