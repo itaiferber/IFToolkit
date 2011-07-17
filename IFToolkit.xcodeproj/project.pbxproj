@@ -24,6 +24,7 @@
 		5C7C659913D13D290070AADE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7C659813D13D290070AADE /* Cocoa.framework */; };
 		5C7C65A313D13D290070AADE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C7C65A113D13D290070AADE /* InfoPlist.strings */; };
 		5C7C65CD13D13EBB0070AADE /* IFToolkitFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C7C65CC13D13EBB0070AADE /* IFToolkitFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CE4B16A13D28E0B004C21B4 /* IFPrint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE4B16913D28E0B004C21B4 /* IFPrint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		5C7C65A213D13D290070AADE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5C7C65A413D13D290070AADE /* IFToolkit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IFToolkit-Prefix.pch"; sourceTree = "<group>"; };
 		5C7C65CC13D13EBB0070AADE /* IFToolkitFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFToolkitFramework.h; sourceTree = "<group>"; };
+		5CE4B16913D28E0B004C21B4 /* IFPrint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFPrint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				5C0E595913D1536200DE8E39 /* IFPrint.h */,
+				5CE4B16913D28E0B004C21B4 /* IFPrint.m */,
 			);
 			name = IFPrint;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				5C5B366713D1FCC6009AF4BF /* MAZeroingWeakRef.m in Sources */,
 				5C5B366913D1FCC6009AF4BF /* NSWindow+Resizing.m in Sources */,
 				5C5B366F13D1FCEA009AF4BF /* IFSheetController.m in Sources */,
+				5CE4B16A13D28E0B004C21B4 /* IFPrint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
