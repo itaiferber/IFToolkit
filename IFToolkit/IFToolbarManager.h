@@ -142,9 +142,16 @@
 
 /*!
  If a toolbar item with the given identifier exists in the managed toolbar, it will be selected. Logs a message if such an item doesn't
- exist, and IF_ERROR_REPORTING_LEVEL is set to 1.
+ exist, and if IF_ERROR_REPORTING_LEVEL is set to 1.
  @param theIdentifier the identifier to select (precondition: theIdentifier != nil)
  */
 - (void)selectToolbarItemWithIdentifier:(NSString *)theIdentifier;
+
+/*!
+ If the given index returns a valid toolbar item, it will be selected. Logs a message if such an item doesn't exit, and if 
+ IF_ERROR_REPORTING_LEVEL is set to 1.
+ @param theIndex the index to select (precondition: the index is valid)
+ */
+- (void)selectToolbarItemAtIndex:(NSUInteger)theIndex;
 
 @end
